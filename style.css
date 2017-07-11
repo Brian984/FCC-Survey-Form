@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+*:focus {
+  outline: none;
+}
+
+body {
+  background-color: #3169aa;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.4em;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 225px;
+  padding: 40px;
+}
+#title {
+  text-transform: uppercase;
+  letter-spacing: 1.2em;
+  margin: auto;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 1000px;
+  flex-wrap: wrap;
+  flex: 1 0 850px;
+  padding: 30px;
+}
+
+#name-label, #email-label, #number-label, #dropdown-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 550px;
+  text-transform: uppercase;
+}
+#name, #email, #number, #dropdown {
+  flex: 1 0 200px;
+  max-width: 320px;
+  border: none;
+  height: 40px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  text-align-last: center;
+}
+#radio-group, #checkbox-group {
+  display: flex;
+  justify-content: space-between;
+  min-width: 550px;
+  text-transform: uppercase;
+}
+#radio-list {
+  display: flex;
+  justify-content: space-between;
+  min-width: 320px;
+  font-size: 0.8em;
+}
+#checkbox-list {
+  font-size: 0.8em;
+}
+ul {
+  list-style-type: none;
+}
+#span1 {
+  font-size: 0.6em;
+}
+#textarea-label {
+  display: flex;
+  justify-content: space-between;
+  min-width: 550px;
+  text-transform: uppercase;
+}
+
+button {
+  margin: 50px 50px;
+  padding: 12px 20px 12px 20px;
+  font-family: "Fira Sans", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  background-color: #131a1f;
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  border-radius: 5px;
+  border: none;
+}
+button:hover {
+  transform: scale(1.1);
+}
